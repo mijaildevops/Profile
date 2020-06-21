@@ -32,6 +32,8 @@ form.addEventListener('submit', function(event){
     .then(Res=>Res.json())
     .then(Res=>{
     console.log(Res)  
+    EmailMenaje.innerHTML = '';
+    EmailMenaje.innerHTML += `${Res}`;
 
   })})
 
