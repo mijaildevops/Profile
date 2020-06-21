@@ -33,7 +33,7 @@ form.addEventListener('submit', function(event){
     .then(Res=>{
     console.log(Res)  
     EmailMenaje.innerHTML = '';
-    EmailMenaje.innerHTML += `${Res}`;
+    EmailMenaje.innerHTML += `${Res.message}`;
 
   })})
 
