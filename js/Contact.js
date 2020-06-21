@@ -37,6 +37,140 @@ form.addEventListener('submit', function(event){
 
   })})
 
+// ********************************************************************
+// Paginacion 01
+// ********************************************************************
+function Pagina1() {
+    PaginacionOptions.innerHTML = '';
+    PaginacionOptions.innerHTML += `
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+    <a href="#" id="id01" onclick="Pagina1();" class="w3-bar-item w3-black w3-button">1</a>
+    <a href="#" id="id02" onclick="Pagina2();" class="w3-bar-item w3-button w3-hover-black">2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    `;
+    Projects.innerHTML = '';
+    Projects.innerHTML += `
+    <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 1</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 2</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 3</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/NGINX.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 4</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/Jenkins.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 5</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Img/Perfil/Apache.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 6</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  `;
+  }
+
+// ********************************************************************
+// Paginacion 02
+// ********************************************************************
+function Pagina2() {
+    
+    Projects.innerHTML = '';
+    PaginacionOptions.innerHTML = '';
+    PaginacionOptions.innerHTML += `
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+    <a href="#" id="id01" onclick="Pagina1();" class="w3-bar-item w3-button w3-hover-black">1</a>
+    <a href="#" id="id02" onclick="Pagina2();" class="w3-bar-item w3-black w3-button">2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    `;
+
+    Projects.innerHTML += `
+    <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 7</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 8</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 9</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/NGINX.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 10</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Img/Perfil/Jenkins.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 11</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Img/Perfil/Apache.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>project 12</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  `;
+  }
+
+// cargar lista de projectos 1 
+window.onload=Pagina1("window.onload");
+
+
 
 
 
