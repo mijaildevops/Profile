@@ -55,21 +55,21 @@ function Pagina1() {
     <a href="Proyects/project-1/index.html"><img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 1</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-2/index.html"><img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 2</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container">
     <a href="Proyects/project-3/index.html"><img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 3</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
   </div>
@@ -80,21 +80,21 @@ function Pagina1() {
     <a href="Proyects/project-4/index.html"><img src="./Img/Perfil/NGINX.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 4</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-5/index.html"><img src="./Img/Perfil/Jenkins.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 5</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container">
     <a href="Proyects/project-6/index.html"><img src="./Img/Perfil/Apache.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>project 6</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
   </div>
@@ -118,49 +118,48 @@ function Pagina2() {
     Projects.innerHTML += `
     <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 7</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 8</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 9</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
+        <p>Project in Development</p>
     </div>
   </div>
   
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Img/Perfil/NGINX.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 10</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Img/Perfil/Jenkins.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 11</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="./Img/Perfil/Apache.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="./Img/Perfil/Project.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>project 12</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Project in Development</p>
       </div>
     </div>
   </div>
