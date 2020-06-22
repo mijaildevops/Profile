@@ -25,8 +25,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar-block">
     <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal w3-small"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-user fa-fw w3-margin-right "></i>ABOUT</a> 
-    <a href="#participated" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>PRODUCTS AND PARTICIPATED</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="http://mijailosorio.com/#participated" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>PRODUCTS AND PARTICIPATED</a>
+    <a href="http://mijailosorio.com/#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
     <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
@@ -77,7 +77,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#"><img src="../../Img/Perfil/Perfil.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>Project 2</b></h1>
+    <h1><b>SSH Server</b></h1>
     
     </div>
   </header>
@@ -88,7 +88,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-row-padding w3-padding-16" id="about">
     <div class="w3-col m6">
       <video width="100%" controls>
-        <source src="http://100.97.218.207/vsblty/Recursos/Videos/Alex%20Morgan%20.mp4" type="video/mp4">
+        <source src="http://100.97.218.207/Profile-Videos/SSH-Speed.mp4" type="video/mp4">
       </video>
     </div>
     <div class="w3-col m6">
@@ -98,13 +98,43 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h4><b>About This Project</b></h4>
-    <p class="w3-center">En este proyecto muesstro como instalr Ubunto en una maquina Virtual de Azure</p>
-    <hr>
+    <p class="w3-center">En este proyecto enseño como crear un servidor SSH con ubuntu. SSH es un protocolo seguro para la administración remota de servidores a través de la consola o terminal.</p>
+    <p class="w3-center">El protocolo SSH proporciona confidencialidad (los datos van cifrados punto a punto), autenticación (podremos autenticarnos frente al servidor SSH de múltiples maneras, con usuario/clave, criptografía de clave pública e incluso podremos configurar un segundo factor de autenticación)</p>
     <h4><b>Steps</b></h4>
     <ul class="w3-ul">
-      <li>1. Install</li>
-      <li>2. Test</li>
-      <li>3. Deploy</li>
+      <li><strong>1. El servidor está en una máquina Virtual con Ubuntu</strong></li>
+      <li><strong>2. Para virtualizar utilizaremos VirtualBox</strong></li>
+      <li><strong>3. Iniciar VM</strong></li>
+      <li><strong>4. Abrir Terminal (Ctrl + Alt + T)</strong></li>
+      <li><strong>5. Iniciar sesión como root </strong></li>
+      <li>Sudo Su</li>
+      <li><strong>6. Actualizar paquetes ubuntu</strong></li>
+      <li>sudo apt update</li>
+      <li><strong>7. instalar openssh-server</strong></li>
+      <li>sudo apt install openssh-server</li>
+      <li><strong>8. Verificar Status Instalación</strong></li>
+      <li>sudo systemctl status ssh</li>
+      <li><strong>9. Cambiar Puerto de Conexión (Por seguridad)</strong></li>
+      <li>nano /etc/ssh/sshd_config</li>
+      <li>configurar 2222 (puede ser cualquiera)</li>
+      <li><strong>10. Reiniciar el Servicio SSH</strong></li>
+      <li>/etc/init.d/ssh restart</li>
+      <li><strong>11. Habilitar Firewall </strong></li>
+      <li>sudo ufw enable</li>
+      <li><strong>12. Abrir puerto SSH Firewall </strong></li>
+      <li>sudo ufw allow 2222</li>
+      <li><strong>13. Verificar IP del servidor</strong></li>
+      <li>ifconfig</li>
+      <li><strong>14. Abrir Putty en “Windows”</strong></li>
+      <li>Ingresar la IP del servidor SSH</li>
+      <li>Cambiar puerto de conexión</li>
+      <li>Click en el botón “Open”</li>
+      <li><strong>15. Crear carpeta desde línea de comando (consola de putty)</strong></li>
+      <li>mkdir SSH-Folde</li>
+      <li><strong>16. Descargar imagen desde línea de comando (consola de putty)</strong></li>
+      <li>wget https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg</li>
+
+      
     </ul>
 
   </div>

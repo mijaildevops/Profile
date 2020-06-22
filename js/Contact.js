@@ -54,22 +54,22 @@ function Pagina1() {
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-1/index.html"><img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>project 1</b></p>
-        <p>Project in Development</p>
+        <p><b>Desplegar una VM con ubuntu En Azure</b></p>
+        <p>En este proyecto enseño como crear y desplegar una maquina virtual con ubuntu en Microsoft Azure, Adema de como conectarse por SSH y realizar ping</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-2/index.html"><img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>project 2</b></p>
-        <p>Project in Development</p>
+        <p><b>Crear Servidor SSH en Ubuntu VM</b></p>
+        <p>En este proyecto enseño como crear un servidor SSH con ubuntu, conectar desde cliente con Putty utilizando Usuario y Contraseña</p>
       </div>
     </div>
     <div class="w3-third w3-container">
     <a href="Proyects/project-3/index.html"><img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>project 3</b></p>
-        <p>Project in Development</p>
+        <p><b>Instalar un certificado SSL en Ubuntu</b></p>
+        <p>En este proyecto enseño como instalar un certificado SSL en Ubuntu vía SSH, estándar de seguridad que permite la transferencia de datos cifrados </p>
       </div>
     </div>
   </div>
@@ -79,8 +79,8 @@ function Pagina1() {
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-4/index.html"><img src="./Img/Perfil/NGINX.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>project 4</b></p>
-        <p>Project in Development</p>
+        <p><b>Configuracion y publicacion Servidor Web Nginx</b></p>
+        <p>En este proyecto enseño como Configurar y publicar un servidor web, utilizando NGINX. servidor web ligero y de alto rendimiento</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
@@ -93,8 +93,8 @@ function Pagina1() {
     <div class="w3-third w3-container">
     <a href="Proyects/project-6/index.html"><img src="./Img/Perfil/Apache.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>project 6</b></p>
-        <p>Project in Development</p>
+        <p><b>Configuracion y publicacion Servidor Web APACHE</b></p>
+        <p>En este proyecto enseño como Configurar y publicar un servidor web, utilizando NGINX. Servidor web HTTP de código abierto mas utilizado</p>
       </div>
     </div>
   </div>
