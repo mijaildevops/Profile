@@ -25,8 +25,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar-block">
     <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal w3-small"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-user fa-fw w3-margin-right "></i>ABOUT</a> 
-    <a href="#participated" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>PRODUCTS AND PARTICIPATED</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="http://mijailosorio.com/#participated" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>PRODUCTS AND PARTICIPATED</a>
+    <a href="http://mijailosorio.com/#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-small"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
     <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
@@ -77,7 +77,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#"><img src="../../Img/Perfil/Perfil.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>Project 3</b></h1>
+    <h1><b>Deploy VM con windows 10 en Azure</b></h1>
     
     </div>
   </header>
@@ -86,23 +86,66 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-row-padding w3-padding-16" id="about">
     <div class="w3-col m6">
       <video width="100%" controls>
-        <source src="http://100.97.218.207/vsblty/Recursos/Videos/Lebron%20James.mp4" type="video/mp4">
+        <source src="http://100.97.218.207/Profile-Videos/Deploy-VM-Azure-Windows.mp4" type="video/mp4">
       </video>
     </div>
     <div class="w3-col m6">
-      <img src="../../Img/Perfil/UbuntuFossa.jpg" alt="Me" style="width:100%">
+      <img src="../../Img/Perfil/Azure.png" alt="Me" style="width:100%">
     </div>
   </div>
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h4><b>About This Project</b></h4>
-    <p class="w3-center">En este proyecto muesstro como instalr Ubunto en una maquina Virtual de Azure</p>
-    <hr>
+    <p class="w3-center"> En este proyecto enseño como crear y desplegar una maquina virtual con windows 10 en AZURE, Azure es uno de los mas grandes proveedores de cloud computing.</p>
+    <p class="w3-center">Luego de Levantar la VM, verificar la conexion a internet, procedi a instalar una version de Python asi como la libreria de Flask. Flask permite crear aplicaciones web de forma muy rapida. 
+    Finalmente muestro como crear una regla basica para firewall azure, de esta manera la aplicacion web de Flask podia ser accedida desde la Ip publica de la VM</p>
     <h4><b>Steps</b></h4>
     <ul class="w3-ul">
-      <li>1. Install</li>
-      <li>2. Test</li>
-      <li>3. Deploy</li>
+      <li><strong>1. Crear cuenta en Azure</strong></li>
+      <li><strong>2. Click en Virtual machine</strong></li>
+      <li><strong>3. Asignar nombre a VM </strong></li>
+      <li><strong>4. Seleccionar la región</strong></li>
+      <li><strong>5. Seleccionar la Imagen</strong></li>
+      <li><strong>6. Asignar Usuario y password</strong></li>
+      <li><strong>7. Seleccionar puertos de entrada</strong></li>
+      <li><strong>8. Click en create </strong></li>
+      <li><strong>9. Esperar a que el recurso sea desplegado</strong></li>
+      <li><strong>10. Click en “Go to resource”</strong></li>
+      <li><strong>11. Copiar la IP Pública</strong></li>
+      <li><strong>12. Abrir Remote Desktop </strong></li>
+      <li><strong>13. Ingresar la IP de la VM (los asignados en el paso 5)</strong></li>
+      <li><strong>14. Ingrese UserName y password (los asignados en el paso 5)</strong></li>
+      <li><strong>15. Haga clic en yes (Ventana de Certificado) </strong></li>
+      <li><strong>16. Espere a que inicie la máquina Virtual</strong></li>
+      <li><strong>17. Verifique la conexión a internet (Edge browser)</li></strong>
+      <li>En mi caso yo ingrese a la página de mi perfil</li>
+      <li><strong>18. Verifique la IP de la Máquina	</li></strong>
+      <li>abrir CMD</li>
+      <li>ipconfig</li>
+      <li><strong>19. Instalar python 3.7	</li></strong>
+      <li><strong>20. Instalar Flask	</li></strong>
+      <li>pip install Fask</li>
+      <li><strong>21. Crear folder y archivo.py de prueba	</li></strong>
+      <li>Abrí el archivo con el IDLE de python</li>
+      <li>copie en el archivo de Pruebas, el código de ejemplo</li>
+      <li><strong>22. Desde CMD ejecuta el código de ejemplo	</li></strong>
+      <li>navegue hasta el directorio principal</li>
+      <li>Ejecute el comando python App.py</li>
+      <li>se inicia el servidor de Flask</li>
+      <li><strong>23.Ingrese la IP la maquina mas el puerto definido en el navegador	</li></strong>
+      <li>http://10.0.0.5:5080</li>
+      <li><strong>24. Verificar acceso web app desde la IP Pública	</li></strong>
+      <li>No se puede acceder al sitio web</li>
+      <li><strong>25. Crear Regla firewall en Azure (está en una regla general pero se puede restringir el acceso por IP)</li></strong>
+      <li>dentro de la MV ir a Networking</li>
+      <li>click en Add inbound port rule</li>
+      <li>asignar el puerto</li>
+      <li>ingresar name y descripción de la regla</li>
+      <li>esperar a que se cree la regla</li>
+      <li><strong>26. Verificar acceso web app desde la IP Pública	</li></strong>
+      <li>la aplicación de Flask se muestra correctamente</li>
+
+      
     </ul>
 
   </div>

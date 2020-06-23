@@ -52,24 +52,24 @@ function Pagina1() {
     Projects.innerHTML += `
     <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-    <a href="Proyects/project-1/index.html"><img src="./Img/Perfil/UbuntuFossa.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+    <a href="Proyects/project-1/index.html"><img src="./Img/Perfil/UpCloud-VM.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>Desplegar una VM con ubuntu En Azure</b></p>
-        <p>En este proyecto enseño como crear y desplegar una maquina virtual con ubuntu en Microsoft Azure, Adema de como conectarse por SSH y realizar ping</p>
+        <p><b>Desplegar una VM con ubuntu En UpCloud</b></p>
+        <p>En este proyecto enseño como crear y desplegar una maquina virtual con ubuntu en UPCLOUD, Adema de como conectarse por SSH con User and Password.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
     <a href="Proyects/project-2/index.html"><img src="./Img/Perfil/SSH.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>Crear Servidor SSH en Ubuntu VM</b></p>
+        <p><b>Crear Servidor SSH en Ubuntu Virtual Box</b></p>
         <p>En este proyecto enseño como crear un servidor SSH con ubuntu, conectar desde cliente con Putty utilizando Usuario y Contraseña</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-    <a href="Proyects/project-3/index.html"><img src="./Img/Perfil/SSl.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+    <a href="Proyects/project-3/index.html"><img src="./Img/Perfil/Azure.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>Instalar un certificado SSL en Ubuntu</b></p>
-        <p>En este proyecto enseño como instalar un certificado SSL en Ubuntu vía SSH, estándar de seguridad que permite la transferencia de datos cifrados </p>
+        <p><b>Deploy VM con windows 10 en Azure</b></p>
+        <p>En este proyecto enseño como crear y desplegar una maquina virtual con windows 10 en AZURE, como configurar puertos firewall </p>
       </div>
     </div>
   </div>
